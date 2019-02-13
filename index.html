@@ -1,46 +1,52 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Google</title>
-		<link rel="stylesheet" type="text/css" href="css/homepage.css">
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+</head>
+<body>
+	<header>
+		<nav id= "left-nav">
+			<a href="https://www.google.com">About</a>
+			<a href="https://www.google.com">Store</a>
+		</nav>	
+		<nav id="right-nav">	
+			<a href="https://www.google.com/">Gmail</a>
+			<a href="https://www.google.com/">Images</a>
 
-	</head>
-		<body>
-			<div>
-					<nav>
-						<a href="http://www.google.com">About</li></a>
-						<a href="http://www.google.com">Store</a>
-					</nav>		
-					<a href="http://www.google.com">Gmail</a>
-					<a href="http://www.google.com">Images</a>
-					<img id= "mg" src="images/google-apps.png"/>
-					<img id= "mg" src="images/google-notifications.png">
-					<img id="sign"src="images/sign-in.png">
-				</div>		
-		<main>
-				</div>
-					<img id="google" src="images/google.png">
+			<a class= "drawer" href="www.google.com"><img src="images/google-apps.png" alt="app-drawer" width="25" length="25"></a>
 
-						<div>
-							<input type="text" name="googlesearch">
-							<img src="images/microphone.png">
-						</div>	
-				</div>
+			<a class= "notif" href="www.google.com"><img src="images/google-notifications.png" alt="sign-in" width="30" height="30"></a>
+			<a><button type="button">Sign In</button></a>
+		</nav>
+	</header>
 
-					<button>Google Search</button>
-					<button>I'm Feeling Lucky</button>
-
-				<footer>
-				<div class="footer">
-						<ul>
-							<li>Advertising</li>
-							<li>Business</li>
-							<li>Privacy</li>
-							<li>Terms</li>
-							<li>Settings</li>
-						</ul>
-				</div>		
-				</footer>
+	<main>
+		<div id="google">
+			<img src="images/google.png" alt="Google main image" class="center">
+		</div>	
+		<div id="form">
+			<input type="text" id="form-search" placeholder="Search Google">
+			<a href="www.google.com"><img src="images/microphone.png" alt="microphone"></a>
 		</div>
-	</body>	
-</html>	
+		<div id="buttons">	
+			<input type="submit" value="Google Search" id="google-search">
+			<input type="submit" value="I'm Feeling Lucky" id="lucky">
+		</div>
+	</main>	
+
+	<!-- Footer -->
+	<footer> 
+		<ul class= "footer-left"> 
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business </a></li>
+		</ul>
+		<ul class="footer-right">	
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>	
+	</footer>	
+</body>
+</html>
+s
