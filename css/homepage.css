@@ -25,13 +25,13 @@ a {
     font-family: arial;
     color: #000000
 
+
 }
 
 #right-nav {
 	float:right;
 	margin:11.835px 0;
 }
-/*fix the position of the drawer and notifications*/
 .drawer{
 	position: relative;
 	top: 5px
@@ -43,6 +43,19 @@ a {
 sign-in{
 	width: 30px;
 	height:30px;
+}
+#drawer-square{
+	height: 25px;
+	width: 25px;
+	position: relative;
+    top: 5px;
+}
+#notications{
+	width:30px;
+	height: 30px;
+	position: relative;
+    top: 5px;
+
 }
 main{
 	clear: both;
@@ -59,6 +72,7 @@ button{
 	padding: 5px 12px;
 	text-align: center;
 	cursor: pointer;
+	margin-right: 10px;
 }
 .center{
 	display: block;
@@ -75,18 +89,25 @@ Google main image {
  	margin-right: auto;
 }
 #form{
-	text-align: center
+    width: 526px;
+    margin: 20px auto;
+    position: relative;
 }
-#form-search{
-	line-height: 10px;
-	padding: 5px 60px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+#search-bar{
+	width: 500px;
+    height: 35px;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: none;
 }
+#mic{
+	position: absolute;
+    right: 15px;
+    bottom: 9px;
 
 }
-.form #form-search{
+
+.form #search-bar{
 	padding:0 8px;
 	margin-left: 10px;
 
@@ -109,6 +130,7 @@ Google main image {
     min-width: 54px;
     padding: 0 16px;
     text-align: center;
+    height: 36px;
 }
 #lucky{
 	background-color: #f2f2f2;
@@ -123,6 +145,7 @@ Google main image {
     min-width: 54px;
     padding: 0 16px;
     text-align: center;
+    height: 36px
 }
 
 footer {
