@@ -3,6 +3,8 @@
 <head>
 	<title>Google</title>
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/index.js"></script>
 </head>
 <body>
 	<header>
@@ -13,10 +15,33 @@
 		<nav id="right-nav">	
 			<a href="https://www.google.com/">Gmail</a>
 			<a href="https://www.google.com/">Images</a>
+			<a href="#" id="menubtn"><img src="images/google-apps.png" alt="app-drawer"></a>
 
-			<a class= "drawer" href="www.google.com"><img id="drawer-square" src="images/google-apps.png" alt="app-drawer" ></a>
 
-			<a class= "notif" href="www.google.com"><img id="notications" src="images/google-notifications.png" alt="sign-in"></a>
+			<div id="container">
+
+				<div id="grid-container">
+
+					<div><a href="#"><img class="flxapps" id="" src="images/account.png">Account</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/search.png">Search</a></div>	
+					<div><a href="#"><img class="flxapps" id="" src="images/maps.png">Maps</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/youtube.png">Youtube</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/play.png">Play</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/news.png">News</a></div>		
+					<div><a href="#"><img class="flxapps" id="" src="images/gmail.png">Gmail</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/contacts.png">Contacts</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/drive.png">Drive</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/calendar.png">Calendar</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/googleplus.png">Google+</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/translate.png">Translate</a></div>
+					<div><a href="#"><img class="flxapps" id="" src="images/photos.png">Photos</a></div>
+
+				</div>
+
+
+			</div>	
+
+			<a class= "notif" href="#"><img id="notications" src="images/google-notifications.png" alt="sign-in"></a>
 
 			<button type="button">Sign In</button>
 		</nav>
@@ -27,7 +52,7 @@
 			<img src="images/google.png" alt="Google main image" class="center">
 		</div>	
 		<div id="form">
-			<input id="search-bar" placeholder="Search Google">
+			<input id="search-bar" placeholder="">
 			<img id="mic" src="images/microphone.png" alt="microphone">
 		</div>
 		<div id="buttons">	
